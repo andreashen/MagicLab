@@ -1,7 +1,6 @@
-# MagicLab
-My MATLAB toy box
+# MagicLab -- My MATLAB toy box
 
-## introduction
+
 
 ### **ImageCrop.m**   
 The function crops image files in specific size. In this method, there are several subfolders under the source folder and every subfoler has one kind of images.  
