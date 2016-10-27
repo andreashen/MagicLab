@@ -6,7 +6,7 @@ function ImageCrop(src_dir,dst_dir,format,spacing)
 % src_dir: source directory
 % dst_dir: destination directory
 % format: file format of images in source directory
-% spacing: spacing of cropping
+% spacing: cropping interval, so every patch is in spacing×spacing
 
 
 subfolders=dir(src_dir);
