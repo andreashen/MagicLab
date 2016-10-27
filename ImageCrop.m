@@ -3,10 +3,11 @@
 % github: github.com/loper-eswai
 
 function ImageCrop(src_dir,dst_dir,format,spacing)
-% spacing: spacing of cropping
 % src_dir: source directory
 % dst_dir: destination directory
 % format: file format of images in source directory
+% spacing: spacing of cropping
+
 
 subfolders=dir(src_dir);
 for ii=1:length(subfolders)
