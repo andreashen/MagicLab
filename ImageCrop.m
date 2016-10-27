@@ -1,8 +1,12 @@
+% ImageCrop: for cropping images in certain folders
+% author: Eswai
+% github: github.com/loper-eswai
+
 function ImageCrop(src_dir,dst_dir,format,spacing)
-% spacing=256;
-% src_dir='TESTIMG';
-% dst_dir='image_cut';
-% format='tif';
+% spacing: spacing of cropping
+% src_dir: source directory
+% dst_dir: destination directory
+% format: file format of images in source directory
 
 subfolders=dir(src_dir);
 for ii=1:length(subfolders)
